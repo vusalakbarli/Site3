@@ -1,0 +1,238 @@
+/*!
+Theme Name: Online Casino
+*/
+
+@import 'fonts';
+@import 'modificator-classes';
+
+@import 'reset';
+@import '404';
+@import 'header';
+@import 'page';
+@import 'aside';
+@import 'footer';
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: $blueText;
+    font-size: 18px;
+}
+
+.wrapper {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    // padding: 0 10px;
+    // padding: 0 10px;
+}
+
+.inner-flex {
+    display: flex;
+    justify-content: space-between;
+
+    @media(max-width: 768px) {
+        flex-wrap: wrap;
+    }
+}
+
+.for-h {
+    color: $accent;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.form-wrapper {
+    margin: 60px auto 100px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 15px;
+
+    label {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        padding: 8px 5px;
+        border: 1px solid rgb(210, 210, 210);
+        background-color: rgb(229, 229, 229);
+        margin-top: 5px;
+        max-width: 300px;
+    }
+
+    textarea {
+        padding: 8px 5px;
+        border: 1px solid rgb(210, 210, 210);
+        background-color: rgb(229, 229, 229);
+        margin-top: 5px;
+        width: 100%;
+        resize: none;
+        height: 140px;
+    }
+
+    button {
+        display: block;
+        color: #fff;
+        background: $accent;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 3px 25px;
+        width: fit-content;
+        margin: 60px auto 0;
+        border: 0;
+        font-size: 22px;
+    }
+
+    &:first-child {
+        @media screen and (max-width: 768px) {
+            flex-wrap: wrap;
+        }
+
+        label {
+            width: 30%;
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
+        }
+    }
+
+    &:nth-child(2) {
+        width: 100%;
+
+        label {
+            width: 100%;
+        }
+    }
+}
+
+.post-content {
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        color: $accent;
+        font-size: 32px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .main-top .container {
+        flex-direction: column;
+        padding: 15px;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .main-top-item {
+        margin-left: 0;
+    }
+
+    .main-top-item.second::before {
+        margin-right: 7px;
+        margin-left: 1px;
+    }
+
+    .main-top-item.third::before {
+        margin-left: -10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .main-title-block.with-bg {
+        background: #000c04;
+        height: auto;
+        padding: 30px 0 60px;
+        min-height: auto;
+        min-height: auto;
+    }
+
+    .main_banner_container {
+        padding: 0 15px
+    }
+
+    .main-title-block p {
+        max-width: 100%;
+    }
+
+    .main-title-block h1,
+    .main-title-block h1>p {
+        font-size: 100px !important;
+    }
+
+    .main_banner_subtitle {
+        font-size: 48px;
+    }
+
+    .main_banner_subsubtitle {
+        font-size: 48px;
+    }
+
+    .main_banner_text {
+        font-size: 24px !important;
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main-title-block h1 {
+        padding-left: 0;
+        font-size: 75px !important;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:1024px) {
+    .main {
+        padding: 20px 40px;
+    }
+}
+
+.page-main.faq {
+    padding: 50px 70px
+}
+
+@media screen and (max-width:768px) {
+    .main-bottom-table table tr:first-child {
+        display: none
+    }
+
+    .main-bottom-table table .bonus {
+        max-width: none;
+        width: 100%;
+        min-height: 145px;
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.main-title-block .page-heading {
+    @media screen and (max-width: 1024px) {
+        font-size: 55px !important;
+        margin-left: 40px !important;
+    }
+    @media screen and (max-width: 400px) {
+        font-size: 45px !important;
+        margin-left: 40px !important;
+    }
+}
+
+.single-main-title-block {
+    @media screen and (max-width: 400px) {
+        height: 100px;
+        padding: 20px 0;
+    }
+}

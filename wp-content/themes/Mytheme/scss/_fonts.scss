@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('./fonts/Ubuntu-Regular.ttf');
+	// src: local('./fonts/Circe'), local('./fonts/Circe-Regular'),
+	// 	url('./fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+	// 	url('./fonts/Circe-Regular.woff') format('woff'),
+	// 	url('./fonts/Circe-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+    font-display: swap;
+}
+@font-face {
+	font-family: 'Ubuntu-Bold';
+	src: url('./fonts/Ubuntu-Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+    font-display: swap;
+}
+@font-face {
+	font-family: 'BebasNeueBook';
+	src: url('fonts/BebasNeue Thin.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'BebasNeueBold';
+	src: url('fonts/BebasNeueBold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

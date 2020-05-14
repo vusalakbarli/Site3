@@ -1,0 +1,31 @@
+.sidebar {
+    max-width: 195px;
+    @media(max-width: 768px) {
+        max-width: initial;
+    }
+    &-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+        color: $titleColor;
+    }
+    .post-title {
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: normal;
+        &::before {
+            content: '►';
+            display: inline-block;
+            color: $accent;
+            margin-right: 8px;
+            font-size: 14px;
+        }
+
+        a {
+            color: $greenText;
+            text-decoration: none;
+            &:hover {
+                color: $accent;
+            }
+        }
+    }
+}

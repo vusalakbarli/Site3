@@ -1,0 +1,540 @@
+[
+    {
+        "key": "group_5e9051c6e5ca1",
+        "title": "Banner text forr online",
+        "fields": [
+            {
+                "key": "field_5e9051e9b8332",
+                "label": "Banner title",
+                "name": "online_banner-title",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_5e905210b8333",
+                "label": "banner text",
+                "name": "online_banner-text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5e9040b6b313e",
+        "title": "Casino",
+        "fields": [
+            {
+                "key": "field_5e90412e05d8f",
+                "label": "Casino Item",
+                "name": "casino_item",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5e9041bb05d90",
+                        "label": "Casino logo",
+                        "name": "casino_logo",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_5e9041ea05d91",
+                        "label": "casino bonus",
+                        "name": "casino_bonus",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1,
+                        "delay": 0
+                    },
+                    {
+                        "key": "field_5e90423c05d92",
+                        "label": "rate stars",
+                        "name": "rate_stars",
+                        "type": "number",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": 5,
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "min": "",
+                        "max": "",
+                        "step": ""
+                    },
+                    {
+                        "key": "field_5e90429a05d93",
+                        "label": "rate text",
+                        "name": "rate_text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5e9042a305d94",
+                        "label": "casino score",
+                        "name": "casino_score",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5e9042c505d95",
+                        "label": "casno link",
+                        "name": "casno_link",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_type",
+                    "operator": "==",
+                    "value": "front_page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5e9053906d437",
+        "title": "FAQ",
+        "fields": [
+            {
+                "key": "field_5e9053955427e",
+                "label": "FAQ-repeater",
+                "name": "faq_repeater",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5e9053c95427f",
+                        "label": "question",
+                        "name": "question",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5e9053d254280",
+                        "label": "answer",
+                        "name": "answer",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1,
+                        "delay": 0
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "64"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5e83088c5fa83",
+        "title": "Hotel description",
+        "fields": [
+            {
+                "key": "field_5e8364c0c7bf5",
+                "label": "hotel-link",
+                "name": "hotel_link",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e83089a11ef9",
+                "label": "Rate",
+                "name": "rate",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e8308a311efa",
+                "label": "description",
+                "name": "hotel_description",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 4,
+                "layout": "table",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5e83091f11efb",
+                        "label": "Description tem",
+                        "name": "description_item",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5e830946c99a4",
+                "label": "Widget",
+                "name": "widget_link",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_category",
+                    "operator": "==",
+                    "value": "category:hotel"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5e8324fb6c5b0",
+        "title": "Location",
+        "fields": [
+            {
+                "key": "field_5e832613c5b35",
+                "label": "Location descrption",
+                "name": "location_descrption",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5e8325053d323",
+                "label": "Map iframe",
+                "name": "map_iframe",
+                "type": "text",
+                "instructions": "Enter your map iframe code here",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_category",
+                    "operator": "==",
+                    "value": "category:hotel"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
+        "key": "group_5d81e771f0520",
+        "title": "Вывод h1",
+        "fields": [
+            {
+                "key": "field_5d81e784a79d2",
+                "label": "h1",
+                "name": "h1",
+                "type": "text",
+                "instructions": "Введите текст для h1",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ],
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
